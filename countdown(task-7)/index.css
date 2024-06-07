@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    margin: 0;
+    transition: background-color 1s;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 1.2em;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #0072ff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+#countdown {
+    margin-top: 20px;
+}
+
+#time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-box {
+    text-align: center;
+}
+
+.time-box span {
+    display: block;
+}
+
+.time-box .label {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    font-size: 2.5em;
+    font-weight: bold;
+}
